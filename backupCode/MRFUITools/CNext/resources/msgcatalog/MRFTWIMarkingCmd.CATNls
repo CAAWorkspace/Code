@@ -1,0 +1,14 @@
+MRFTWIMarkingCmd.ReferencePart.Name = "TWIMark_Profile_Prd";
+MRFTWIMarkingCmd.ReferencePart.Rev = "A";
+
+MRFTWIMarkingCmd.ProfileCount = "6";
+MRFTWIMarkingCmd.UDFName.Profile_1 = "TWIMark_Type_1";
+MRFTWIMarkingCmd.UDFName.Profile_2 = "TWIMark_Type_2";
+MRFTWIMarkingCmd.UDFName.Profile_3 = "TWIMark_Type_3";
+MRFTWIMarkingCmd.UDFName.Profile_4 = "TWIMark_Type_1_CNC";
+MRFTWIMarkingCmd.UDFName.Profile_5 = "TWIMark_Type_2_CNC";
+MRFTWIMarkingCmd.UDFName.Profile_6 = "TWIMark_Type_3_CNC";
+
+
+
+

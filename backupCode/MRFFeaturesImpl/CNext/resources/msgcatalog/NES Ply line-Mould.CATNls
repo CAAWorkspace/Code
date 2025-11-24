@@ -1,0 +1,16 @@
+
+
+
+Exe.Path = "D:/NES/application"; //Note: give the path always with forward slash instead of backward slash
+Exe.Name = "NES.exe";
+Exe.InputExcel_Name = "NESInput.xlsx";
+Exe.OutputExcel_Name = "NESOutput.xlsx"; 
+
+Exe.Parameters.Count = "6";
+
+Exe.Parameters.1 = "x1,NES Input_X1(NES)";
+Exe.Parameters.2 = "y1,NES Input_Y1(NES)";
+Exe.Parameters.3 = "xb,NES Input_Bead(X)";
+Exe.Parameters.4 = "yb,NES Input_Bead(Y)";
+Exe.Parameters.5 = "xm,NES Input_X(max)";
+Exe.Parameters.6 = "r,NES Input_Bead(R)";

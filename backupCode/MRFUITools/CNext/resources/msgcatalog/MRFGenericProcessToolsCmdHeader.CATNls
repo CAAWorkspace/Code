@@ -1,0 +1,9 @@
+MRFGenericProcessToolsCmdHeader.MRFGenericProcessToolsCmdHdr.Title = "Generic Process Tool";
+MRFGenericProcessToolsCmdHeader.MRFGenericProcessToolsCmdHdr.Help = "Create Belt, Bead, NES package";
+
+MRFGenericProcessToolsCmdHeader.BaseNLS.Name = "MRFGenericProcessTool";
+
+MRFGenericProcessToolsCmdHeader.MRFExportExcelHdr.Title = "Export Spec Parameters";
+MRFGenericProcessToolsCmdHeader.MRFExportExcelHdr.Help = "Export specification paramters into excel";
+
+MRFExportExcelHdr.ExportSpecCmd.Label = "Select spec parameters";

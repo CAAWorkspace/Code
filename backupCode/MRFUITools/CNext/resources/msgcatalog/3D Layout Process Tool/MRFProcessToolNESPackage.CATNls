@@ -1,0 +1,19 @@
+
+
+
+
+MRFProcessToolNESPackage.UDFCount = "1";
+
+MRFProcessToolNESPackage.UDF.1.RefProductName = "NES_New_PCR-NES Input and Apex Dated-18-12-20";
+MRFProcessToolNESPackage.UDF.1.RefProductRev = "A";
+MRFProcessToolNESPackage.UDF.1.Name = "NES Input_Rev_Date_08-12-20";
+MRFProcessToolNESPackage.UDF.1.InputParameters = "NES Input_Sidewall Gauge Under Belt,NES Input_No of Shoulder lock";
+MRFProcessToolNESPackage.UDF.1.CalculatedParameters = "NES Input_Bead(X)";
+
+
+MRFProcessToolNESPackage.MatlabParameters.x1 = "NES Input_X1(NES)";
+MRFProcessToolNESPackage.MatlabParameters.y1 = "NES Input_Y1(NES)";
+MRFProcessToolNESPackage.MatlabParameters.xb = "NES Input_Bead(X)";
+MRFProcessToolNESPackage.MatlabParameters.yb = "NES Input_Bead(Y)";
+MRFProcessToolNESPackage.MatlabParameters.xm = "NES Input_X(max)";
+MRFProcessToolNESPackage.MatlabParameters.r = "NES Input_Bead(R)";

@@ -1,0 +1,18 @@
+
+
+
+
+MRFProcessToolApexPackage.UDFCount = "1";
+
+MRFProcessToolApexPackage.UDF.1.RefProductName = "NES_New_PCR-NES Input and Apex Dated-18-12-20";
+MRFProcessToolApexPackage.UDF.1.RefProductRev = "A";
+MRFProcessToolApexPackage.UDF.1.Name = "Apex_Rev_Date_08-12-20";
+MRFProcessToolApexPackage.UDF.1.InputParameters = "X1,X2,X3";
+MRFProcessToolApexPackage.UDF.1.CalculatedParameters = "";
+
+
+
+
+
+
+

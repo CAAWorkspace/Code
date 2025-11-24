@@ -1,0 +1,5 @@
+MRFDisAssembleHeader.MRFDisAssembleHdr.Title = "Associative Disassemble";
+MRFDisAssembleHeader.MRFDisAssembleHdr.Help = "Associative Disassemble Command";
+
+MRFDisAssembleHeader.MRFSmoothCurveHdr.Title = "Create Smooth 3D Curve";
+MRFDisAssembleHeader.MRFSmoothCurveHdr.Help = "Smooth 3D Curve";

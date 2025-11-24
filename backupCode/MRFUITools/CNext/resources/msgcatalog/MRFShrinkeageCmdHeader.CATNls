@@ -1,0 +1,4 @@
+MRFShrinkeageCmdHeader.MRFShrinkeageCmdHdr.Title = "Create Segment Shrinkeage";
+MRFShrinkeageCmdHeader.MRFShrinkeageCmdHdr.Help = "MRF Segment Shrinkeage";
+
+MRFShrinkeageCmdHdr.ShrinkeageSet.Name = "FinalSegments";

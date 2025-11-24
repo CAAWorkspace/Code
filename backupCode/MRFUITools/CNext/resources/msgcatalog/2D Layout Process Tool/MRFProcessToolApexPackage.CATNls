@@ -1,0 +1,27 @@
+
+
+
+
+MRFProcessToolApexPackage.UDFCount = "1";
+
+MRFProcessToolApexPackage.UDF.1.RefProductName = "NES_New_PCR-NES Input and Apex Dated-18-12-20";
+MRFProcessToolApexPackage.UDF.1.RefProductRev = "A";
+MRFProcessToolApexPackage.UDF.1.Name = "Apex_Rev_Date_08-12-20";
+MRFProcessToolApexPackage.UDF.1.InputParameters = "X1,X2,X3";
+MRFProcessToolApexPackage.UDF.1.CalculatedParameters = "";
+
+
+
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.Count = "10";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.1 = "Bead-Wrap Bottom,Bead-Wrap Bottom";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.2 = "Bead-Wrap Top,Bead-Wrap Top";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.3 = "Bead Circle,Bead Circle";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.4 = "NES PLy line-Mould,Ply green gauge ";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.5 = "WRAP GAUGE,WRAP GAUGE";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.6 = "Bead ID point,Bead ID point";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.7 = "Cured compression factor under bead,Cured compression factor under bead";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.8 = "NES Input_Belt 1 End Point,NES Input_Belt 1 End Point";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.9 = "NES Input_NES Start Point,NES Input_NES Start Point";
+//MRFProcessToolNESPackage.UDF.1.MappingFeaturesOnInstantiation.10 = "Belt 1 Bottom Profile,Belt 1 Bottom Profile";
+
+

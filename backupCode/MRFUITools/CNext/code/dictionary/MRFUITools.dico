@@ -1,0 +1,25 @@
+
+MRFProductAddin CATIPRDWorkshopAddin libMRFUIToolsAddin
+ 
+MRFGSDWbAddin CATIShapeDesignWorkshopAddin libMRFUIToolsAddin
+
+MRFGSDWbAddin CATIPrtWksAddin libMRFUIToolsAddin
+ 
+MRFGrooveSweepFeat CATIEdit libMRFGrooveSweepCmd
+ 
+MRFAssembleCmd CATIProgressTask  libMRFAssembleCmd
+
+MRFPointVentFeat CATIEdit libMRFPointVentCmd
+
+MRFPointVentSetFeat CATIEdit libMRFPointVentCmd
+ 
+MRFCircumferentialVentFeat CATIEdit libMRFCircumferentialVent
+
+MRFTWISetFeat CATIEdit libMRFTWINSD
+ 
+MRFTWIFeat CATIEdit libMRFTWINSD
+ 
+MRFNSDFeat CATIEdit libMRFTWINSD
+ 
+MRFTWIMarkFeat CATIEdit libMRFTWINSD
+ 

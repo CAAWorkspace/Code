@@ -1,0 +1,5 @@
+MRFCircumVentHeader.MRFCircumVentAnalysisCmdHdr.Title = "MRF Circumference Vent Refinement";
+MRFCircumVentHeader.MRFCircumVentAnalysisCmdHdr.Help = "MRF Circumference Vent Refinement";
+
+MRFCircumVentHeader.MRFCircumVentCmdHdr.Title = "Create MRF Circumference Vent";
+MRFCircumVentHeader.MRFCircumVentCmdHdr.Help = "Create MRF Circumference Vent";

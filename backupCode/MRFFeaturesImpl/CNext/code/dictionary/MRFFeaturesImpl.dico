@@ -1,0 +1,105 @@
+CATPrtCont MRFIGSDFactory libMRFFeaturesImpl
+
+
+MRFGrooveSweepFeat MRFIGrooveSweep libMRFFeaturesImpl
+ 
+MRFGrooveSweepFeat CATIIcon libMRFFeaturesImpl
+ 
+MRFGrooveSweepFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+MRFGrooveSweepFeat  CATIMf3DBehavior  libMRFFeaturesImpl 
+
+MRFGrooveSweepFeat  CATIInputDescription  libMRFFeaturesImpl
+
+ 
+MRFPointVentSetFeat MRFIPointVentSet libMRFFeaturesImpl
+
+MRFPointVentSetFeat CATIIcon libMRFFeaturesImpl
+
+MRFPointVentSetFeat  CATIInputDescription  libMRFFeaturesImpl
+
+MRFPointVentSetFeat CATI3DGeoVisu libMRFFeaturesImpl
+
+MRFPointVentSetFeat CATISelectShow libMRFFeaturesImpl
+
+
+MRFPointVentFeat MRFIPointVent libMRFFeaturesImpl
+ 
+MRFPointVentFeat CATIIcon libMRFFeaturesImpl
+ 
+MRFPointVentFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+MRFPointVentFeat  CATIInputDescription  libMRFFeaturesImpl
+
+MRFPointVentFeat  CATIMf3DBehavior  libMRFFeaturesImpl
+
+
+MRFCircumferentialVentFeat MRFICircumferentialVent libMRFFeaturesImpl
+ 
+MRFCircumferentialVentFeat CATIIcon libMRFFeaturesImpl
+  
+MRFCircumferentialVentFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+MRFCircumferentialVentFeat CATIInputDescription libMRFFeaturesImpl
+
+
+MRFTWISetFeat MRFITWISet libMRFFeaturesImpl
+
+MRFTWISetFeat CATISelectShow libMRFFeaturesImpl
+ 
+MRFTWISetFeat CATI3DGeoVisu libMRFFeaturesImpl
+
+MRFTWISetFeat CATIIcon libMRFFeaturesImpl
+
+
+MRFTWIFeat MRFITWI libMRFFeaturesImpl
+ 
+MRFTWIFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+ 
+MRFTWIFeat CATIIcon libMRFFeaturesImpl
+ 
+
+MRFNSDFeat MRFINSD libMRFFeaturesImpl
+ 
+MRFNSDFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+ 
+MRFNSDFeat CATIIcon libMRFFeaturesImpl
+
+
+MRFTWIMarkFeat MRRITWIMark libMRFFeaturesImpl
+ 
+MRFTWIMarkFeat CATIIcon libMRFFeaturesImpl
+ 
+MRFTWIMarkFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+ 
+MRFNESCurveFeat MRFINESCurve libMRFFeaturesImpl
+ 
+MRFNESCurveFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+ 
+MRFNESCurveFeat CATIInputDescription libMRFFeaturesImpl
+ 
+MRFNESCurveFeat CATIMf3DBehavior libMRFFeaturesImpl
+ 
+MRFNESCurveFeat CATIIcon libMRFFeaturesImpl
+
+  
+MRFGreenProfileSetFeat MRFIGreenProfileSet libMRFFeaturesImpl
+ 
+MRFGreenProfileSetFeat CATIIcon libMRFFeaturesImpl
+ 
+MRFGreenProfileSetFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+MRFGreenProfileSetFeat CATI3DGeoVisu libMRFFeaturesImpl
+
+MRFGreenProfileSetFeat CATISelectShow libMRFFeaturesImpl
+
+ 
+MRFGreenProfileFeat MRFIGreenProfile libMRFFeaturesImpl
+ 
+MRFGreenProfileFeat CATIFmFeatureBehaviorCustomization libMRFFeaturesImpl
+
+MRFGreenProfileFeat CATIIcon libMRFFeaturesImpl
+
+
+ 

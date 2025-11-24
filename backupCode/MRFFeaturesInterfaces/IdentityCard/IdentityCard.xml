@@ -1,0 +1,13 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+	<prerequisite name="System" access="Public" expose="ExposePrereq" />
+  <prerequisite name="SystemTS" access="Public"  expose="ExposePrereq" />
+  <prerequisite name="SpecialAPI" access="Public"  expose="ExposePrereq" />
+  <prerequisite name="MRFFeaturesInterfaces" access="Public"  expose="ExposePrereq" />
+  <prerequisite name="SGInfra" access="Public" expose="ExposePrereq" />
+  <prerequisite name="AfrFoundation" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ObjectModelerSystem" access="Public" expose="ExposePrereq" />
+  <prerequisite name="ObjectModelerBase" access="Public" expose="ExposePrereq" />
+  <prerequisite name="CATMecModUIUseItf" access="Public" expose="ExposePrereq" />
+
+</codeFramework>

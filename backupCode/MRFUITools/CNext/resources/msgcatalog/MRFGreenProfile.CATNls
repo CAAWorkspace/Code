@@ -1,0 +1,31 @@
+
+
+TyreFeature.Count = "2"; // All the lines should start with "TyreFeature"
+
+TyreFeature.1.Name = "PCR Tread";
+
+TyreFeature.1.Inputsurfaces = "Base hollow surface,Midcap hollow surface,Cap hollow surface,Wing hollow surface"; //(features available in tree)
+TyreFeature.1.SmoothenedInnerProfile = "Smoothened tread inner profile"; //(feature available in tree)
+TyreFeature.1.SmoothenedInnerProfileStartingPoint = "Smoothened tread inner profile starting point"; //(feature available in tree)
+TyreFeature.1.FiniteElementCuredWidth = "1,mm";
+TyreFeature.1.ProfileSplitterOuterLength = "100,mm";
+TyreFeature.1.ProfileSplitterInnerLength = "5,mm";
+TyreFeature.1.ExeFileName = "Green_profile_generator.exe";
+TyreFeature.1.ExeFilePath = "E:\Green_profile_generator"; // Replace with forward slash "/"
+TyreFeature.1.UserParameters = "Minimum gauge=2,Stitch out factor=1.025,Porosity factor"; //(prefill default value in tool window, if available)
+TyreFeature.1.ParametersFromTree = "Belt 2 green angle,Belt 2 cord extension factor,Cushion green gauge,Tread green inner radius,Belt 2 cured width,Belt 2 green width,Chimney presence";
+
+
+
+TyreFeature.2.Name = "PCR SWRC";
+
+TyreFeature.2.Inputsurfaces = "SW hollow surface,RC hollow surface"; //(features available in tree)
+TyreFeature.2.SmoothenedInnerProfile = "Smoothened SWRC inner profile"; //(feature available in tree)
+TyreFeature.2.SmoothenedInnerProfileStartingPoint = "Smoothened SWRC inner profile starting point"; //(feature available in tree)
+TyreFeature.2.FiniteElementCuredWidth= "1,mm";
+TyreFeature.2.ProfileSplitterOuterLength = "100,mm";
+TyreFeature.2.ProfileSplitterInnerLength = "3,mm";
+TyreFeature.2.ExeFileName = "Green_profile_generator.exe";
+TyreFeature.2.ExeFilePath = "E:\Green_profile_generator"; // Replace with forward slash "/"
+TyreFeature.2.UserParameters = "Minimum gauge=1.0123,Stitch out factor= 1.00,Porosity factor";
+TyreFeature.2.ParametersFromTree = "Ply green angle,Ply cord extension factor,SWRC green inner radius";

@@ -1,0 +1,25 @@
+
+
+MRFProcessToolBeltPackage.UDFCount = "3";
+
+MRFProcessToolBeltPackage.UDF.1.RefProductName = "Belt_10_12_2020_PCR- Belt Package and Bead package_Rev_Date_08-12-20";
+MRFProcessToolBeltPackage.UDF.1.RefProductRev = "A";
+MRFProcessToolBeltPackage.UDF.1.Name = "Belt Package_Rev_Date_08-12-20";
+MRFProcessToolBeltPackage.UDF.1.InputParameters = "Shoulder Drop,Cavity Outer Diameter,Cured compression factor ,BEC availability ,";
+MRFProcessToolBeltPackage.UDF.1.CalculatedParameters = "Belt width difference,Tread Arc Width";
+
+MRFProcessToolBeltPackage.UDF.2.RefProductName = "Belt Wire Frame-23-11-20";
+MRFProcessToolBeltPackage.UDF.2.RefProductRev = "A";
+MRFProcessToolBeltPackage.UDF.2.Name = "Belt Package UDF";
+MRFProcessToolBeltPackage.UDF.2.InputParameters = "CAVITY OD,SHOULDER DROP";
+MRFProcessToolBeltPackage.UDF.2.CalculatedParameters = "BELT WIDTH DIFFERENCE";
+
+MRFProcessToolBeltPackage.UDF.3.RefProductName = "Belt_10_12_2020_PCR- Belt Package and Bead package_Rev_Date_08-12-20";
+MRFProcessToolBeltPackage.UDF.3.RefProductRev = "A";
+MRFProcessToolBeltPackage.UDF.3.Name = "Belt Package_Rev_Date_08-12-20";
+MRFProcessToolBeltPackage.UDF.3.InputParameters = "Shoulder Drop,Cavity Outer Diameter,Cured compression factor ,BEC availability ,";
+MRFProcessToolBeltPackage.UDF.3.CalculatedParameters = "Belt width difference,Tread Arc Width";
+
+
+
+

@@ -1,0 +1,6 @@
+MRFSegmentPartitionHeader.MRFSegmentPartitionCmdHdr.Title = "MRF Segment Partition";
+MRFSegmentPartitionHeader.MRFSegmentPartitionCmdHdr.Help = "Create Segment Cutting Preset";
+
+MRFDynamicSegment.SegmentCuttingSet.Name = "SegmentCuttingSet";
+MRFDynamicSegment.SegmentCuttingPlane.NamePrefix = "SegmentCuttingSurface";
+MRFDynamicSegment.SegmentCuttingAxis.Name = "SegmentCutting_Axis";

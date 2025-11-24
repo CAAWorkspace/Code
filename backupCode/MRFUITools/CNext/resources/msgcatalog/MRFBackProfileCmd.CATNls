@@ -1,0 +1,38 @@
+MRFBackProfileCmd.CatalogueName = "TestCatalogue";
+MRFBackProfileCmd.ChapterName = "Chapter1";
+
+//Set the count of Profile
+MRFBackProfileCmd.ProfileCount = "6";
+
+//Define Profile upto the given count
+MRFBackProfileCmd.Profile1.Name = "BackProfileSurface_1"; //Profile name to be given inside the double quotes
+MRFBackProfileCmd.Profile1.Rev = "A";
+MRFBackProfileCmd.Profile1.FeaturesToBeCopied = "BackProfileSurface";
+MRFBackProfileCmd.Profile1.Parameter = "Angle";
+
+MRFBackProfileCmd.Profile2.Name = "BackProf_Surffor dsBack Profile - P1";
+MRFBackProfileCmd.Profile2.Rev = "A";
+MRFBackProfileCmd.Profile2.FeaturesToBeCopied = "Back Profile Surface";
+MRFBackProfileCmd.Profile2.Parameter = "Seg ID";
+
+MRFBackProfileCmd.Profile3.Name = "Three";
+MRFBackProfileCmd.Profile3.Rev = "C";
+MRFBackProfileCmd.Profile3.FeaturesToBeCopied = "BackProfileSurface";
+MRFBackProfileCmd.Profile3.Parameter = "";
+
+MRFBackProfileCmd.Profile4.Name = "Four";
+MRFBackProfileCmd.Profile4.Rev = "D";
+MRFBackProfileCmd.Profile4.FeaturesToBeCopied = "BackProfileSurface";
+MRFBackProfileCmd.Profile4.Parameter = "";
+
+MRFBackProfileCmd.Profile5.Name = "Five";
+MRFBackProfileCmd.Profile5.Rev = "E";
+MRFBackProfileCmd.Profile5.FeaturesToBeCopied = "BackProfileSurface";
+MRFBackProfileCmd.Profile5.Parameter = "";
+
+MRFBackProfileCmd.Profile6.Name = "Six";
+MRFBackProfileCmd.Profile6.Rev = "F";
+MRFBackProfileCmd.Profile6.FeaturesToBeCopied = "BackProfileSurface";
+MRFBackProfileCmd.Profile6.Parameter = "";
+
+

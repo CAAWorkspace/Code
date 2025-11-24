@@ -1,0 +1,17 @@
+
+MRFGenericProcessTool.Count = "4";
+          
+
+MRFGenericProcessTool.1.NLSConfigFolderName = "PCR 2D Layout Process Tool";
+MRFGenericProcessTool.1.NLSConfigFileName = "PCR 2D Layout Process Tool";  
+          
+MRFGenericProcessTool.2.NLSConfigFolderName = "PCR 3D Layout Process Tool";
+MRFGenericProcessTool.2.NLSConfigFileName = "PCR 3D Layout Process Tool";
+
+MRFGenericProcessTool.3.NLSConfigFolderName = "TW 2D Layout Process Tool";
+MRFGenericProcessTool.3.NLSConfigFileName = "TW 2D Layout Process Tool";
+          
+MRFGenericProcessTool.4.NLSConfigFolderName = "TW 3D Layout Process Tool";
+MRFGenericProcessTool.4.NLSConfigFileName = "TW 3D Layout Process Tool";
+
+MRFGenericProcessTool.FeatureNLS.FolderName = "2DProcessToolFeatureNLS";

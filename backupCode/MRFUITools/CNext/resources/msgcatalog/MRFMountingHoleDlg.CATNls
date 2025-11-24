@@ -1,0 +1,16 @@
+
+
+MainFrame.Segment_Cutting_Set.Title = "Segment Cutting Set";
+MainFrame.BackProfile_Surface.Title = "Collar Surface";
+MainFrame.Lifting_Hole_Reference_Surface.Title = "Lifting Hole Surface";
+MainFrame.Tread_Shoe_Angle.Title = "Tread Shoe Angle";
+MainFrame.No_Of_Segments.Title = "No Of Segments";
+MainFrame.Max_Permissible_Angle.Title = "Max Permissible Angle";
+MainFrame.Tread_Shoe_Start_Angle.Title = "Tread Shoe Start Angle";
+MainFrame.Mount_Hole_Placement.Title = "Mount Hole Placement Type";
+MainFrame.Radial_Angle.Title = "Radial Angle";
+MainFrame.Offset_Distance.Title = "Offset Distance";
+
+
+
+

@@ -1,0 +1,4 @@
+CATfctEditorAssistant -describe-as-osm -catalog-name MRFTyreFeatures.CATfct -with-client-id mrftyre -as MRFTyreFeatures.osm -into-directory E:\New
+
+
+CATfctEditorAssistant -update-catalog -catalog-name MRFTyreFeatures.CATfct -with-client-id mrftyre -with-osm E:\New\MRFTyreFeatures.osm -into-directory E:\New

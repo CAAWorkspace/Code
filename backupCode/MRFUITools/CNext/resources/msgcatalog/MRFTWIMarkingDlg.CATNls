@@ -1,0 +1,14 @@
+
+
+MainFrame.Reference_Surface.Title = "Reference Surface";
+MainFrame.Segment_Cutting_Plane.Title = "Segment Cutting Plane";
+MainFrame.Profile_Type.Title = "Profile Type";
+MainFrame.Apex_Curve_Ratio.Title = "Apex Curve Ratio";
+MainFrame.Position_Angle.Title = "Position Angle";
+MainFrame.Offset_Distance.Title = "Offset Distance";
+MainFrame.Padding_Angle.Title = "Padding Angle";
+MainFrame.Manufacturing_Type.Title = "Manufacturing Type";
+
+
+
+

@@ -1,0 +1,18 @@
+
+
+
+
+MRFProcessToolBeadPackage.UDFCount = "1";
+
+MRFProcessToolBeadPackage.UDF.1.RefProductName = "Belt_10_12_2020_PCR- Belt Package and Bead package_Rev_Date_08-12-20";
+MRFProcessToolBeadPackage.UDF.1.RefProductRev = "A";
+MRFProcessToolBeadPackage.UDF.1.Name = "Bead package_Rev_Date_08-12-20";
+MRFProcessToolBeadPackage.UDF.1.InputParameters = "Bead Package_Curing width,Bead Package_Specified Rim dia,Ply green gauge ,WRAP GAUGE,Cured compression factor under bead";
+MRFProcessToolBeadPackage.UDF.1.CalculatedParameters = "Bead Package_Green Gauge at Heel ";
+
+
+
+
+
+
+

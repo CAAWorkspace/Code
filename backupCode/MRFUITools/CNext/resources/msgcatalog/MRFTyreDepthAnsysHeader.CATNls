@@ -1,0 +1,2 @@
+MRFTyreDepthAnsysHeader.MRFTyreSurfDepthAnsysCmdHdr.Title = "Tyre Depth Analysis";
+MRFTyreDepthAnsysHeader.MRFTyreSurfDepthAnsysCmdHdr.Help = "Tyre Depth Analysis will create depth report for each grid points.";

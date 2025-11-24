@@ -1,0 +1,23 @@
+MRFCircumVentCmd.DefaultVent.Width = "5";
+MRFCircumVentCmd.DefaultVent.Depth = "5";
+MRFCircumVentCmd.DefaultVent.FirstPaddingAngle = "0";
+MRFCircumVentCmd.DefaultVent.SecondPaddingAngle = "0";
+MRFCircumVentCmd.DefaultVent.FirstFilletRadius = "0.01";
+MRFCircumVentCmd.DefaultVent.SecondFilletRadius = "0.01";
+
+MRFCircumVentCmd.MergedVent.Width = "5";
+MRFCircumVentCmd.MergedVent.Depth = "5";
+MRFCircumVentCmd.MergedVent.FirstPaddingAngle = "0";
+MRFCircumVentCmd.MergedVent.SecondPaddingAngle = "0";
+MRFCircumVentCmd.MergedVent.FirstFilletRadius = "0.01";
+MRFCircumVentCmd.MergedVent.SecondFilletRadius = "0.01";
+
+MRFCircumVentCmd.LateralVent.Width = "5";
+MRFCircumVentCmd.LateralVent.Depth = "5";
+MRFCircumVentCmd.LateralVent.FirstPaddingAngle = "0";
+MRFCircumVentCmd.LateralVent.SecondPaddingAngle = "0";
+MRFCircumVentCmd.LateralVent.FirstFilletRadius = "0.01";
+MRFCircumVentCmd.LateralVent.SecondFilletRadius = "0.01";
+
+
+

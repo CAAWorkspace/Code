@@ -1,0 +1,231 @@
+document `MRFTyreFeatures.CATfct` {
+	check_revision(0u1724556a-e721-0000-c3cf52571365f380)
+	history("hsn5","","2021-03-17 12:35",26.0, 0u7602d9bc-0000-3ef0-6051f79800000496)
+	history("hsn5","","2021-03-17 12:06",25.0, 0u7602d9bc-0000-10f8-6051f0e100000495)
+	history("mrf","","2021-03-11 04:39",24.0, 0u9155b101-0000-6aec-60499ef700000493)
+	history("hsn5","","2021-03-03 05:42",24.0, 0u7602d9bc-0000-4308-603f21e200000493)
+	history("mrf","","2021-02-19 02:57",23.0, 0u9155b101-0000-43c4-602f290000000492)
+	history("mrf","","2021-02-17 11:05",22.0, 0u9155b101-0000-0d78-602cf86f00000490)
+	history("mrf","","2021-01-22 09:26",21.0, 0u9155b101-0000-5be0-600a9a4a0000048d)
+	history("hsn5","","2021-01-20 06:58",21.0, 0u7602d9bc-0000-4028-6007d47b0000048d)
+	history("hsn5","","2021-01-12 10:43",20.0, 0u7602d9bc-0000-3c28-5ffd7d3e0000048c)
+	history("mrf","","2020-12-16 09:52",19.0, 0u9155b101-0000-6288-5fd9d8c10000048a)
+	history("mrf","","2020-12-16 06:41",19.0, 0u9155b101-0000-53f4-5fd9ac270000048a)
+	history("hsn5","","2020-12-03 14:22",18.0, 0u7602d9bc-0000-0ae0-5fc8f4b600000488)
+	history("mrf","","2020-11-09 08:56",17.0, 0u9155b101-0001-5a14-5fa9043900000486)
+	history("mrf","","2020-11-09 08:51",17.0, 0u9155b101-0001-3e3c-5fa902f700000485)
+	history("mrf","","2020-11-07 07:20",16.0, 0u9155b101-0000-cddc-5fa64aab00000484)
+	history("mrf","","2020-11-04 09:37",15.0, 0u9155b101-0001-467c-5fa2763c00000483)
+	history("mrf","","2020-11-04 09:34",15.0, 0u9155b101-0001-3e00-5fa2759900000482)
+	history("mrf","","2020-10-30 10:34",14.0, 0u9155b101-0000-1e30-5f9bec2c00000481)
+	history("mrf","","2020-10-30 04:46",13.0, 0u9155b101-0000-54fc-5f9b9aa400000481)
+	history("mrf","","2020-10-26 11:19",12.0, 0u9155b101-0000-26fc-5f96b0c60000047e)
+	history("mrf","","2020-10-26 10:16",11.0, 0u9155b101-0000-307c-5f96a1f80000047d)
+	history("mrf","","2020-10-19 11:41",10.0, 0u9155b101-0000-5314-5f8d7b660000047c)
+	history("hsn5","","2020-10-14 09:05",9.0, 0u7602d9bc-0000-4b00-5f86bf720000047c)
+	history("hsn5","","2020-09-29 05:49",8.0, 0u7602d9bc-0000-0b90-5f72caec0000047b)
+	history("hsn5","","2020-09-23 11:19",7.0, 0u7602d9bc-0000-3e30-5f6b2f300000047d)
+	history("mrf","","2020-09-17 09:47",6.0, 0u9155b101-0000-62d0-5f6330a600000476)
+	history("hsn5","","2020-07-31 11:01",5.0, 0u7602d9bc-0000-3edc-5f23f9ee00000474)
+	history("hsn5","","2020-07-21 11:56",5.0, 0u7602d9bc-0000-43e8-5f16d7d400000473)
+	history("hsn5","","2020-06-24 06:18",4.0, 0u7602d9bc-0000-1088-5ef2f02d00000473)
+	history("hsn5","","2020-06-18 06:09",3.0, 0u7602d9bc-0000-47e4-5eeb051500000472)
+	history("hsn5","","2020-06-18 06:04",3.0, 0u7602d9bc-0000-1274-5eeb03f300000471)
+	history("hsn5","","2020-06-09 07:42",2.0, 0u7602d9bc-0000-34f0-5edf3d6700000472)
+	history("hsn5","","2020-02-14 05:22",1.0, 0u7602d9bc-0000-32c0-5e462e9d0000046e)
+	history("hkr14","","2020-02-07 12:36",0.0, 0uad4a58bd-0000-41e0-5e3d59c500000005)
+	
+	#maturity=`Standard`
+	#type=`CAA`
+	
+	container `RootCont` #root #uuid(0uad4a58bd-0000-41e0-5e3d59c500000002) {
+		feature `MRFGrooveSweepFeat`#1 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=21.0
+			#uuid= 0u7602d9bc-0000-32c0-5e462e9d0000046d
+			specobject `Input3DCurve` #in
+			specobject `BaseSurface` #in
+			specobject `TopSurface` #in
+			specobject `EdgeList` #list #in
+			int `AngleReferenceList` #list #in
+			string `EdgeIndexAndControlPointParams` #list #in
+			int `ExtrapolateTrim` #in
+			int `TrimBase` #in
+			specobject `BaseTrimObject`
+			int `Version`
+			int `PreviewUpto`
+			`ExtrapolateTrim`=1
+			`PreviewUpto`=0
+			`TrimBase`=0
+			`Version`=1
+		}
+		feature `MRFPointVentFeat`#2 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=24.0
+			#uuid= 0u7602d9bc-0000-34f0-5edf3d670000046f
+			int `VentType` #in
+			specobject `RefSurface` #in
+			specobject `RefCurve` #in
+			specobject `RefEdge1` #in
+			specobject `RefEdge2` #in
+			double `OffsetDist1` #in
+			double `OffsetDist2` #in
+			specobject `RefVent1` #in
+			specobject `RefVent2` #in
+			int `3DRepresentation` #in
+			int `ProfileType` #in
+			double `a` #in
+			double `b` #in
+			double `c` #in
+			double `d` #in
+			double `SurfaceParamU`
+			double `SurfaceParamV`
+			double `DeltaParamU` #in
+			double `DeltaParamV` #in
+			double `Ratio` #in
+			int `Dir1` #in
+			int `Dir2` #in
+			double `X`
+			double `Y`
+			double `Z`
+			specobject `RefEdges` #list #in
+			int `SubType` #in
+			int `Axis` #in
+			int `AutoUpdate`
+			double `Dir1Ratio`
+			double `Dir2Ratio`
+			`AutoUpdate`=1
+			`Axis`=0
+			`DeltaParamU`=0.0
+			`DeltaParamV`=0.0
+			`Dir1`=0
+			`Dir1Ratio`=0.0
+			`Dir2`=0
+			`Dir2Ratio`=0.0
+			`Ratio`=0.5
+			`SubType`=0
+		}
+		feature `MRFPointVentSetFeat`#3 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=2.0
+			#uuid= 0u7602d9bc-0000-34f0-5edf3d6700000471
+			specobject `VentList` #list #in
+			int `NbOfVents` #in
+		}
+		feature `MRFCircumferentialVentFeat`#4 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=6.0
+			#uuid= 0u9155b101-0000-62d0-5f6330a600000475
+			specobject `BackProfile` #in
+			specobject `TyreAssemble` #in
+			specobject `DefaultGeomSet` #in
+			specobject `MergedGeomSet` #in
+			specobject `LateralGeomSet` #in
+			double `DefaultVentValuesList` #list #in
+			double `MergedVentValuesList` #list #in
+			double `LateralVentValuesList` #list #in
+		}
+		feature `MRFTWISetFeat`#5 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=8.0
+			#uuid= 0u7602d9bc-0000-3e30-5f6b2f3000000478
+			specobject `SegmentCuttingPlane` #in
+			specobject `TWIs` #list
+			specobject `NSDs` #list
+			int `NbOfTWI`
+			int `NbOfNSD`
+			int `TWIProfileType`
+			int `TWIOrientation`
+		}
+		feature `MRFTWIFeat`#6 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=10.0
+			#uuid= 0u7602d9bc-0000-3e30-5f6b2f300000047a
+			specobject `SegmentCuttingPlane` #in
+			specobject `ReferenceSurface` #in
+			double `TWIHeight` #in
+			double `TWIWidth` #in
+			double `TWIPaddingAngle` #in
+			double `TWIExtrapolLength` #in
+			specobject `TWINSDs` #list
+			double `HoleDia` #in
+			double `HoleDepth` #in
+			double `TWIPaddingAngle1` #in
+			double `TWIPaddingAngle2` #in
+			double `TWISegmentRotationAngle` #in
+			specobject `TWISetFeat` #in
+		}
+		feature `MRFNSDFeat`#7 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=12.0
+			#uuid= 0u7602d9bc-0000-3e30-5f6b2f300000047c
+			specobject `TWI` #in
+			double `NSDHeight` #in
+			double `NSDWidth` #in
+			double `StartPosition` #in
+			int `ManufacturingType` #in
+			double `NSDSpacing` #in
+			double `TWIPaddingAngle1` #in
+			double `TWIPaddingAngle2` #in
+			int `Direction` #in
+			double `NSDPaddingAngle1` #in
+			double `NSDPaddingAngle2` #in
+		}
+		feature `MRFTWIMarkFeat`#8 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=16.0
+			#uuid= 0u9155b101-0000-54fc-5f9b9aa400000480
+			specobject `ReferenceSurface` #in
+			specobject `ReferencePlane` #in
+			double `CurveRatio` #in
+			double `PositionAngle` #in
+			double `OffsetDistance` #in
+			double `PaddingAngle` #in
+			int `ManufacturingType` #in
+			int `ProfileType` #in
+			specobject `UDFInputPlane`
+			specobject `UDFInputPoint`
+			specobject `ReferenceUDF`
+			specobject `UDFInputAxisSystem`
+			specobject `UDFDevelopCurve` #in
+		}
+		feature `MRFNESCurveFeat`#9 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=19.0
+			#uuid= 0u9155b101-0000-53f4-5fd9ac2700000489
+			specobject `ReferenceUDF` #in
+		}
+		feature `MRFGreenProfileFeat`#10 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=25.0
+			#uuid= 0u9155b101-0000-0d78-602cf86f0000048f
+			string `ConfigName`
+			int `ConfigComboIndex`
+			specobject `SmoothenedCurve` #in
+			specobject `SmoothenedCurveStartPoint` #in
+			double `FiniteElementCuredWidth` #in
+			double `ProfileSplitterOuterLength` #in
+			double `ProfileSplitterInnerLength` #in
+			string `ExeFileName`
+			string `ExeFilePath`
+			specobject `SurfaceList` #list #in
+			specobject `ParametersFromTree` #list #in
+			specobject `UserParameters` #list #in
+			string `GreenProfileName`
+			double `XCordinateList` #list #in
+			double `YCordinateList` #list #in
+			double `ZCordinateList` #list #in
+		}
+		feature `MRFGreenProfileSetFeat`#11 `GSMGeom`#2@`CATHybridShape.feat` #startup {
+			#mlc::version=26.0
+			#uuid= 0u9155b101-0000-43c4-602f290000000491
+			string `ConfigName`
+			int `ConfigComboIndex`
+			specobject `SmoothenedCurve` #in
+			specobject `SmoothenedCurveStartPoint` #in
+			double `FiniteElementCuredWidth` #in
+			double `ProfileSplitterOuterLength` #in
+			double `ProfileSplitterInnerLength` #in
+			string `ExeFileName`
+			string `ExeFilePath`
+			specobject `SurfaceList` #list #in
+			specobject `ParametersFromTree` #list #in
+			string `UserParameters` #list #in
+			specobject `GreenProfileList` #list
+			specobject `OutputParameters` #list
+		}
+		
+// insert here your startups
+
+	}
+}

@@ -1,0 +1,14 @@
+MRFPointVentHeader.MRFPointVentCmdHdr.Title = "MRF Point Vent";
+MRFPointVentHeader.MRFPointVentCmdHdr.Help = "Create MRF Point Vent";
+
+MRFPointVentDlg.MRFVentModelType.SingleEdge = "Single Edge Method";
+MRFPointVentDlg.MRFVentModelType.DualEdge = "Dual Edge Method";
+MRFPointVentDlg.MRFVentModelType.ReferenceCurveAndEdge = "Reference Curve and Two Edge Method";
+MRFPointVentDlg.MRFVentModelType.ReferenceEdgeAndVent = "Reference Edge and Vent Method";
+MRFPointVentDlg.MRFVentModelType.TwoVent = "Between Two Vents Method";
+MRFPointVentDlg.MRFVentModelType.SegmentVent = "Segment Point Vent";
+MRFPointVentDlg.MRFVentModelType.CentroidVent = "Centroid Point Vent";
+
+MRFPointVentDlg.MRFVentProfileType.Profile1 = "  Profile 1  ";
+MRFPointVentDlg.MRFVentProfileType.Profile2 = "  Profile 2  ";
+MRFPointVentDlg.MRFVentProfileType.Profile3 = "  Custom Profile  ";

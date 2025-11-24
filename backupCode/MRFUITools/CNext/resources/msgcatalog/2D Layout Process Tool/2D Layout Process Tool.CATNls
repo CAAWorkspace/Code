@@ -1,0 +1,39 @@
+
+Tab.Count = "5";
+
+
+Tab.1.Name = "Belt_Pack";
+Tab.1.Index = "1";
+Tab.1.NLS = "MRFProcessToolBeltPackage";
+Tab.1.Dependant = "false";
+Tab.1.IsToCreateFeature = "false";
+
+
+Tab.2.Name = "Bead_Pack";
+Tab.2.Index = "2";
+Tab.2.NLS = "MRFProcessToolBeadPackage";
+Tab.2.Dependant = "true";
+Tab.2.Dependant.Index = "1";
+Tab.2.IsToCreateFeature = "false";
+
+Tab.3.Name = "NES";
+Tab.3.Index = "3";
+Tab.3.NLS = "MRFProcessToolNESPackage";
+Tab.3.Dependant = "true";
+Tab.3.Dependant.Index = "1,2";
+Tab.3.IsToCreateFeature = "true";
+Tab.3.Feature_Name = "NES Ply line-Mould"; //Feature Name to Set inorder to map the next UDF instance inputs. eg: Apex takes this NES Ply line-Mould as an input (also define nls for feature with same name defined here)
+
+Tab.4.Name = "Apex";
+Tab.4.Index = "4";
+Tab.4.NLS = "MRFProcessToolApexPackage";
+Tab.4.Dependant = "true";
+Tab.4.Dependant.Index = "1,2,3";
+Tab.4.IsToCreateFeature = "false";
+
+Tab.5.Name = "Ply";
+Tab.5.Index = "5";
+Tab.5.NLS = "MRFProcessToolPlyPackage";
+Tab.5.Dependant = "true";
+Tab.5.Dependant.Index = "1,2,3,4";
+Tab.5.IsToCreateFeature = "False";

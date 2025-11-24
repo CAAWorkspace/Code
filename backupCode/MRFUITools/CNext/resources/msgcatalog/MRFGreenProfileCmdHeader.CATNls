@@ -1,0 +1,5 @@
+
+
+
+MRFGreenProfileCmdHeader.MRFGreenProfileCmdHdr.Title = "MRFGreenProfile Generator";
+MRFGreenProfileCmdHeader.MRFGreenProfileCmdHdr.Help = "Create a Green Profile form NSL info and Matlab exe";

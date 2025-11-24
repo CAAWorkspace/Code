@@ -1,0 +1,9 @@
+//Localisation for the MRFTyreFeaturesNLS.CATNls catalog
+
+MRFGrooveSweepFeat = "MRF Groove Sweep";
+MRFPointVentSetFeat = "MRF Point Vent Set";
+MRFPointVentFeat = "MRF Point Vent";
+MRFTWIFeat = "MRF TWI";
+MRFTWISetFeat = "MRF TWI Set";
+MRFNSDFeat = "MRF NSD";
+MRFTWIMarkFeat = "MRF TWI Mark";

@@ -1,0 +1,9 @@
+
+
+MainFrame.Selector_List_Frame.Label_ProcessTool2DLayout_Geom_Set.Title = "2D Process Layout Tools";
+MainFrame.Selector_List_Frame.SelList_ProcessTool_Geom_Set.Title = "ProcessTool Geom Set";
+MainFrame.Selector_List_Frame.Label_XY_Plane.Title = "Reference XY Plane";
+MainFrame.Selector_List_Frame.SelList_XYPlane.Title = "Reference XY Plane";
+MainFrame.Prev_Tab.Title = "       Prev Tab       ";
+MainFrame.Next_Tab.Title = "       Next Tab       ";
+MainFrame.Update.Title = "       Update UDF    ";
